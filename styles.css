@@ -1,0 +1,254 @@
+body{
+    font-family: "poppins", sans-serif;
+    background-color: #f4f5f7;
+    margin: 0;
+}
+
+#navigation{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 143px;
+    padding-right: 143px;
+}
+
+#navigation h1{
+    color: #0670ff;
+    font-size: 40px;
+    font-weight: 700px;
+    line-height: 20px;
+   
+}
+ #navigation ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px 20px;
+ }
+
+ #navigation ul li a{
+    text-decoration: none;
+    color: #344563;
+    font-size: 15px;
+    font-weight: 500px;
+    line-height: 20px;
+ }
+
+ #header{
+    padding: 260px 289px;
+    background-color: #fff;
+    border-bottom-right-radius: 15px;
+    background-image: url(backgrounds/Header\ bg@2x.png);
+    background-repeat: no-repeat ;
+ }
+
+ #header h1{
+    font-weight: 700px;
+    color: #091E42;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0.37px;
+ }
+
+#header p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+#header{
+    font-size: 16px;
+    color: #7f8cff;
+    line-height: 24px;
+}
+
+.portfolio-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolio-card img{
+    width: 50%;
+    margin-right: 22px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    border-radius: 10px;
+    height: 450px;
+
+}
+
+.portfolio-items h2{
+    width: 700px;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091E42;
+    letter-spacing: 0%;
+
+}
+
+.categories{
+    display: flex; 
+}
+.categories ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: #344563;
+}
+.categories h3{
+    color: #344563;
+}
+
+.tag{
+   display: flex;
+   gap: 10px;
+}
+.tag h3{
+    background-color: #ebebff;
+    padding: 7px;
+    color: #0670ff;
+    border-radius: 10px;
+    font-size: 10px;
+}
+.portfolio-items a{
+    color: #396df2;
+    border: 2px solid #0670ff;
+    width: 14%;
+    border-radius: 10px;
+    padding: 10px;
+    align-content: center;
+}
+button{
+    color: #6070FF;
+    font-size: 12px;
+    border-radius: 8px;
+    border: #6070FF;
+    padding: 8px;
+    gap: 10px;
+    background-color: #f4f5f7;
+    margin-top: 40px;
+    
+}
+
+#portfolio{
+    background-color: white;
+    width: 1156px;
+    height: 496;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 100px;
+    margin-left: 15%;
+}
+.portfolio-items p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.stories-card img{
+    width: 50%;
+    display: flex;
+    margin: 20px 25px;
+}
+.stories-card{
+    display: flex;
+    flex-direction: row;
+}
+.stories-item{
+    margin-right: 30px;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+.stories-item h2{
+    color: #091E42;
+}
+
+.stories-item a{
+    color: rgb(252, 252, 252);  
+    background-color: #4053FC;
+    padding: 7px;
+    border-radius: 7px;
+    font-size: 10px; 
+    width: 60px;
+    margin-top: 70px;
+
+}
+
+.About-card{
+    display: flex;
+    flex-direction: row;
+}
+.lang-img{
+    display: flex;
+    padding: 12px;
+    width: 360px;
+    height: 104px;
+    gap: 12px; 
+    margin-top: 60px;
+    margin-right: 200px;
+}
+
+.tag-image{
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    width: 100px;
+    height: 100;
+    gap: 5px;
+}
+
+.About-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.About-items{
+    margin: 20px;
+}
+
+#About{
+    background-color: white;
+    border-top-right-radius: 60px;
+    height: 100%;
+}
+
+.About-card h3{
+    padding-left: 40px;
+    margin-left: 60px;
+    justify-content: center;
+    justify-items: center;
+}
+
+#container{
+    background-color: #0670ff;
+    background-image: url(backgrounds/Header\ bg@2x.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    padding: 20px;
+    border-top-left-radius: 70px;
+}
+
+.forms{
+    width: 447;
+    height: 170;
+    opacity: 1;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+;
+    justify-content: space-between;
+
+   
+}
+.container-text{
+    padding: 350px;
+    border: 30px;
+    width: 569;
+    height: 102;
+    opacity: 1;
+
+}
+
